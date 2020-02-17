@@ -58,7 +58,7 @@ with open(txtfile_path,"w") as txt_file:
     txt_file.write(f"--------------------------\n")
     txt_file.write(f"Winner: {winning_candidate[0]}\n")
     txt_file.write(f"--------------------------\n")
-#    txt_file.close()
+    txt_file.close()
     
 
 

@@ -43,7 +43,7 @@ print(f"Greatest Decrease in Profits: {decrease_profit_date} (${decrease_profit}
 # print the output as a text file
 # alternatively using python main.py >> output.txt in the terminal 
 txtfile_path = "/Users/shui/Desktop/BSC/UT-TOR-DATA-PT-01-2020-U-C-Master/03-Python/Instructions/python-challenge/PyBank/output.txt"
-with open(txtfile_path"w") as txt_file:
+with open(txtfile_path,"w") as txt_file:
     txt_file.write(f"Financial Analysis\n")
     txt_file.write(f"---------------------------\n")
     txt_file.write(f"Total Months: {total_month}\n")
